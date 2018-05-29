@@ -1,0 +1,88 @@
+.menu-det {
+    line-height: normal;
+    text-transform: none;
+    color: #FF3535;
+    font-weight: bolder;
+}
+.menu-text {
+    text-transform: capitalize;
+    color: #50005B;
+    text-decoration: none;
+}
+.bg {
+    background-color: #d9b8f7;
+}
+
+.widget-left-bar {
+    float: left;
+    margin: 15px;
+    width: 200px;
+}
+
+.widget {
+    background: white url(/clockberry.JPG);
+}
+.widget {
+    margin-bottom: 5px;
+    border-radius: 8px;
+    background: #fff;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #ef1100;
+    box-shadow: 1px 1px 3px #c2c2c2;
+}
+
+.widget .header  p {
+    background: #bd4e4f;
+    color: #ffffff;
+    padding: 15px;
+    text-align: right;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+    text-transform: capitalize;
+    cursor: crosshair;
+}
+
+.widget .content p {
+    padding: 5px 10px 10px 10px;
+}
+
+.widget .content p {
+    border-bottom: 1px solid #d2d2d2;
+    padding: 10px 0;
+}
+
+.widget.collapsed .content {
+    display: none;
+}
+
+.widget.collapsed .header {
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 110%;
+    background-color: #bd1a1d;
+    color: #ffffff;
+    font-size: 0.9em;
+    padding: 8px;
+}
+
+.bar {
+    width: 220px;
+}
+
+.clear {
+    display: inline-block;
+    overflow: auto;
+    zoom: 1;
+    clear: both;
+}
+
+#index-content {
+    padding-left: 220px;
+}
+
